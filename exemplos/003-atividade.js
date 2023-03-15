@@ -5,4 +5,7 @@
 
 let entrada = require('prompt-sync')();
  console.log('Programa que recebe seu nome e sua idade');
-  
+  let nome = entrada ('Digite seu nome:');
+  let idade = parseInt (entrada('Digite sua idade:'));
+  let idade25 = idade + 25;
+  console.log(nome + ' daqui a 25 anos sua idade será: ' + idade25);
