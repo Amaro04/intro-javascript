@@ -7,7 +7,7 @@ As notas digita devem estar entre 0 e 10.
 const entrada = require('prompt-sync')();
 
 const nota1 = parseFloat (entrada('Digite sua primeira nota: '));
-const nota2 = parseFloat (entrada('digite sua segunda nota: ' ));
+const nota2 = parseFloat (entrada('Digite sua segunda nota: ' ));
 const média = parseFloat (nota1 + nota2) / 2;
 
 if (média < 0 || média > 10 || isNaN(média)){
