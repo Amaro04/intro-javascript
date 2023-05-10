@@ -18,4 +18,8 @@ console.log('- ' + aluno4);
 //O que fazer:
 
 let alunos = ['Teo Trajano', 'Raíssa Rebeca', 'Carlos Caetano','Helena Harris'];
-console.log(alunos);
+console.log('Lista de alunos: ');
+
+for (let n = 0; n < alunos.length; n++) {
+    console.log('- ' + alunos[n]);
+}
